@@ -257,7 +257,9 @@ function App() {
         </section>
       </main>
 
-      <footer className="footer section-black"><div className="page-width footer-top"><a className="brand footer-brand" href="#inicio"><img className="brand-logo" src="/assets/images/image.png" alt="Logo Barbearia Honorato" /><span className="brand-copy"><strong>Barbearia</strong><em>Honorato</em></span></a><p>Estilo que marca presença.</p><a className="instagram-footer" href={instagramUrl} target="_blank" rel="noreferrer"><Instagram size={18} /> @barbeariahonorato_ <ArrowUpRight size={16} /></a></div><div className="page-width footer-bottom"><span>© 2024 Barbearia Honorato. Todos os direitos reservados.</span><span>Rio Doce | Olinda/PE</span></div></footer>
+      <footer className="footer section-black"><div className="page-width footer-top"><a className="brand footer-brand" href="#inicio"><img className="brand-logo" src="/assets/images/image.png" alt="Logo Barbearia Honorato" /><span className="brand-copy"><strong>Barbearia</strong><em>Honorato</em></span></a><p>Estilo que marca presença.</p>
+<div className="footer-instagrams"><a className="instagram-footer" href={instagramUrl} target="_blank" rel="noreferrer"><Instagram size={18} /> @barbeariahonorato_ <ArrowUpRight size={16} /></a><p className="footer-store-label">Siga também nossa loja de roupas</p><a className="instagram-footer instagram-store" href="https://instagram.com/honoratolifestely" target="_blank" rel="noreferrer"><Instagram size={15} /> @honoratolifestely <ArrowUpRight size={14} /></a></div>
+</div><div className="page-width footer-bottom"><span>© 2026 Barbearia Honorato. Todos os direitos reservados.</span><span>Rio Doce | Olinda/PE</span></div></footer>
     </div>
   );
 }
